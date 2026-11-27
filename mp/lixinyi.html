@@ -51,8 +51,11 @@
       background: linear-gradient(140deg, #2b7bff, #1a6bff 55%, #0b2f7a); box-shadow: 0 10px 26px rgba(26, 107, 255, 0.32); position: relative; z-index: 1; }
     .avatar-ring img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; display: block; border: 3px solid #fff; }
     .name { margin-top: 16px; font-size: 28px; font-weight: 800; letter-spacing: 0.14em; color: #0a1e3c; position: relative; z-index: 1; }
-    .title-tag { display: inline-block; margin-top: 10px; padding: 6px 22px; border-radius: 999px; font-size: 13.5px; font-weight: 700; letter-spacing: 0.12em; color: #0b47d6; background: rgba(26,107,255,0.08); border: 1px solid rgba(26,107,255,0.18); position: relative; z-index: 1; }
-    .identity-extra { margin-top: 8px; font-size: 12.5px; font-weight: 700; letter-spacing: 0.06em; color: #315b9a; position: relative; z-index: 1; }
+    .role-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 10px; position: relative; z-index: 1; }
+    .role-item { display: inline-block; max-width: 100%; padding: 6px 13px; border-radius: 999px; font-size: 12px; font-weight: 700; line-height: 1.55; letter-spacing: 0.02em; white-space: normal; }
+    .role-blue { color: #0b47d6; background: rgba(26,107,255,0.10); border: 1px solid rgba(26,107,255,0.22); }
+    .role-purple { color: #6d28d9; background: rgba(109,40,217,0.10); border: 1px solid rgba(109,40,217,0.22); }
+    .role-amber { color: #a15c00; background: rgba(245,158,11,0.13); border: 1px solid rgba(245,158,11,0.28); }
     .org { margin-top: 14px; font-size: 15px; font-weight: 600; color: #152f55; letter-spacing: 0.06em; position: relative; z-index: 1; }
     .slogan { margin-top: 6px; font-size: 12.5px; letter-spacing: 0.18em; color: #5d7192; font-weight: 600; position: relative; z-index: 1; }
     .site-line { margin-top: 14px; display: inline-flex; align-items: center; gap: 6px; padding: 8px 18px; border-radius: 999px;
@@ -133,8 +136,11 @@
       <div class="org-top">广东广和（东莞）律师事务所</div>
       <div class="avatar-ring"><img src="assets/img/avatar-lixinyi.jpg" alt="李新宜律师"></div>
       <div class="name">李新宜</div>
-      <div><span class="title-tag">法诚团队负责人 · 专职律师</span></div>
-      <div class="identity-extra">东莞市湖南攸县商会副监事长</div>
+      <div class="role-list">
+        <span class="role-item role-blue">广东广和（东莞）律师事务所合伙人</span>
+        <span class="role-item role-purple">法诚律师团队负责人</span>
+        <span class="role-item role-amber">东莞市湖南攸县商会副监事长</span>
+      </div>
       <div class="slogan">以法为基 · 筑城守护</div>
       <a class="site-line" href="http://www.aols.com.cn/" target="_blank" rel="noopener">🌐 官网 www.aols.com.cn ›</a>
     </div>

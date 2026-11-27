@@ -173,6 +173,14 @@ img{width:100%;height:auto;object-fit:contain}
 .footer-qr{display:block;width:86px;height:auto;margin:0 auto 10px;background:#fff;padding:5px;border-radius:10px}
 .footer-address{text-align:center;margin:0 auto 10px;font-size:12.5px;color:#8fabd9}
 
+/* 李新宜三项职务彩色标签 */
+.role-badges{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:12px}
+.role-badge{display:inline-block;max-width:100%;padding:6px 14px;border-radius:999px;font-size:12.5px;font-weight:800;line-height:1.5;white-space:normal}
+.role-badge.b{color:#0b47d6;background:rgba(26,107,255,.10);border:1px solid rgba(26,107,255,.22)}
+.role-badge.p{color:#6d28d9;background:rgba(109,40,217,.10);border:1px solid rgba(109,40,217,.22)}
+.role-badge.a{color:#a15c00;background:rgba(245,158,11,.13);border:1px solid rgba(245,158,11,.28)}
+@media(max-width:680px){.role-badges{gap:6px;margin-top:10px}.role-badge{font-size:11.5px;padding:5px 10px}}
+
 @media(max-width:980px){
  .grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}
  .nav .container{gap:12px}
