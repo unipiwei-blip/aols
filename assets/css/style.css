@@ -1,4 +1,18 @@
 
+
+/* 面包屑 / 相关阅读 / 分页 */
+.breadcrumb-wrap{background:rgba(26,107,255,.055);border-bottom:1px solid var(--line)}
+.breadcrumb{padding:13px 26px;display:flex;justify-content:center;align-items:center;gap:9px;flex-wrap:wrap;font-size:12.5px;color:var(--muted)}
+.breadcrumb a{color:var(--blue-deep);font-weight:700}
+.breadcrumb .sep{color:rgba(26,107,255,.38)}
+.breadcrumb [aria-current]{color:var(--muted);font-weight:600}
+.related-section{background:linear-gradient(180deg,rgba(26,107,255,.035),transparent)}
+.pagination{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:34px;flex-wrap:wrap}
+.pagination a,.pagination span{display:inline-flex;align-items:center;justify-content:center;min-width:44px;padding:9px 15px;border-radius:10px;font-size:13.5px;font-weight:800;border:1px solid var(--line);background:rgba(255,255,255,.72);color:var(--ink-2)}
+.pagination a:hover{border-color:var(--blue);color:var(--blue)}
+.pagination .active{background:var(--blue);color:#fff;border-color:var(--blue)}
+.pagination .disabled{opacity:.45}
+img{width:100%;height:auto;object-fit:contain}
 /* ===== 法诚团队定制样式（在参考站样式之后加载） ===== */
 .brand-mark{width:38px;height:38px;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
 .brand-mark svg{width:38px;height:38px;display:block}
