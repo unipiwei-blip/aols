@@ -1,0 +1,110 @@
+
+/* ===== 法诚团队定制样式（在参考站样式之后加载） ===== */
+.brand-mark{width:38px;height:38px;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+.brand-mark svg{width:38px;height:38px;display:block}
+.brand-txt span{display:none}
+.brand-slogan{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.04em}
+.nav .container{gap:18px}
+.nav-cta{white-space:nowrap}
+
+/* 首页主视觉：保留参考站的柔光与构图，整体居中 */
+.hero-inner{grid-template-columns:1fr;text-align:center;min-height:auto;padding-top:26px}
+.hero-copy{text-align:center;padding-bottom:6px}
+.hero-kicker{justify-content:center}
+.hero-kicker span:last-child{transform:scaleX(-1)}
+.hero h1 .l2{white-space:normal}
+.hero-sub{max-width:780px;margin-left:auto;margin-right:auto}
+.hero-actions,.hero-pills{justify-content:center;flex-wrap:wrap;gap:10px;margin-top:26px}
+.hero-trust{justify-content:center;gap:34px;margin-top:30px}
+.hero-trust div{justify-content:center}
+.hero-art{height:400px;width:100%;max-width:560px;margin:6px auto 0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.hero-emblem{width:280px;height:280px;display:flex;align-items:center;justify-content:center;position:relative;z-index:2}
+.emblem-svg{width:100%;height:100%;filter:drop-shadow(0 24px 48px rgba(20,70,180,.32))}
+.art-halo{position:absolute;width:340px;height:340px;border-radius:50%;background:radial-gradient(circle,rgba(80,160,255,.30),transparent 68%);filter:blur(6px)}
+.hero-tags{position:relative;z-index:3;display:flex;justify-content:center;align-items:center;gap:18px;margin-top:8px}
+.hero-art .float-tag{position:static;display:inline-flex;align-items:center;justify-content:center;min-width:118px;padding:11px 24px;border-radius:999px;background:rgba(255,255,255,.92);border:1px solid rgba(26,107,255,.18);color:var(--blue-deep);font-weight:800;font-size:15px;letter-spacing:.12em;box-shadow:0 10px 22px rgba(20,80,180,.14)}
+
+/* 内页主视觉 */
+.page-hero{padding:58px 0 30px}
+.page-hero h1{font-size:clamp(30px,3vw,40px);line-height:1.3;font-weight:900;letter-spacing:-.02em}
+.page-hero .lead{max-width:780px}
+.hero-pills .pill{white-space:normal}
+.eyebrow{justify-content:center;display:flex;align-items:center;gap:10px;color:var(--blue-deep);font-weight:800;font-size:12.5px;letter-spacing:.1em;margin-bottom:14px}
+.eyebrow span{width:28px;height:1px;background:linear-gradient(90deg,transparent,var(--blue))}
+.eyebrow span:last-child{transform:scaleX(-1)}
+.sec-head.center h2{font-size:clamp(25px,2.4vw,34px);font-weight:900;letter-spacing:-.02em}
+.sec-head .lead{max-width:760px;font-size:15px;color:var(--muted)}
+.section.alt{background:linear-gradient(180deg,rgba(26,107,255,.035),rgba(26,107,255,.06))}
+
+/* 文章类页面：标题与正文首字符统一缩进两个正文字宽（30px），无装饰竖线 */
+.article-body{max-width:960px;margin:0 auto;text-align:left}
+.article-body p,.article-body h2,.article-body h3,.article-body h4,
+.case-body h3,.case-body p{text-indent:2em;text-indent:30px}
+.article-body h2,.article-body h3,.article-body h4{text-align:left;border-left:0!important;padding-left:0!important}
+.article-body h2{font-size:24px;font-weight:900;margin:34px 0 12px;color:var(--ink)}
+.article-body h3{font-size:19px;font-weight:800;margin:26px 0 10px;color:var(--ink-2)}
+.article-body p{font-size:15px;line-height:1.95;color:var(--muted);margin:0 0 14px}
+.article-body p:first-child{margin-top:0}
+.case-body h3,.case-body p{text-align:left}
+/* 卡片内文字统一居中，取消段首缩进 */
+.card h3,.card p,.service-detail h3,.service-detail p,
+.member-card h3,.member-card p,.member-role{text-align:center!important;text-indent:0!important}
+.sitemap-list li{text-indent:0}
+
+/* 服务卡片：描述控制在一行 */
+.biz-card p,.service-detail p{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;max-width:100%}
+.service-detail h3{font-size:18px}
+
+/* 团队与案例卡片 */
+.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.card{text-align:center}
+.member-card{display:block;color:inherit;text-align:center}
+.member-card .team-avatar,.profile-head .team-avatar{width:74px;height:74px;border-radius:20px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;color:#fff;font-size:30px;font-weight:900;background:linear-gradient(135deg,#2b7bff,#123a91);box-shadow:0 12px 26px rgba(43,105,240,.26)}
+.profile-head .team-avatar.big{width:100px;height:100px;font-size:40px;border-radius:24px;margin-bottom:20px}
+.member-role{font-size:13px!important;color:var(--blue-deep)!important;font-weight:800;text-indent:0!important}
+.member-more{display:inline-block;margin-top:12px;color:var(--blue);font-size:13px;font-weight:800}
+.case-card{text-align:left}
+.case-card .case-body{text-align:left}
+.case-shot.plain{display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#0b2f7a,#1a6bff 55%,#4d9bff);position:relative}
+.shot-label{position:absolute;left:16px;top:16px;z-index:2;font-size:12px;font-weight:800;color:#fff;background:rgba(10,40,100,.42);border:1px solid rgba(255,255,255,.3);padding:5px 11px;border-radius:999px;letter-spacing:.04em}
+.case-shot-name{position:absolute;left:50%;bottom:16px;transform:translateX(-50%);z-index:3;width:max-content;max-width:88%;padding:9px 16px;border-radius:999px;background:rgba(255,255,255,.94);color:var(--blue-deep);font-size:13px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.case-body p{text-align:left;font-size:13.5px!important}
+.case-body p b{color:var(--ink-2)}
+.case-points{justify-content:flex-start}
+.case-foot{justify-content:flex-start}
+.area-tags{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:960px;margin:0 auto}
+.sitemap-list{display:grid;gap:8px;margin-top:12px;text-align:center}
+.sitemap-list li a{font-size:14px}
+.profile-head .sec-head{margin:0 auto}
+
+/* 深色行动区 */
+.cta-dark{background:linear-gradient(120deg,#071c43 0%,#0b3280 52%,#123a91 100%);color:#e6f0ff;margin-top:0}
+.cta-dark .eyebrow{color:#bcd6ff}.cta-dark .eyebrow span{background:linear-gradient(90deg,transparent,#8fb6ff)}
+.cta-dark h2{font-size:clamp(25px,2.5vw,36px);color:#fff}
+.cta-dark .lead{color:#bcd6ff}
+.cta-dark .btn-outline:hover{color:var(--blue-deep)}
+
+/* 页脚：仿参考站结构，控制在紧凑高度内 */
+.footer-top{padding:32px 0 20px;gap:28px}
+.footer-top .brand{justify-content:center}
+.footer-about{margin-top:12px;font-size:12.5px;line-height:1.85}
+.footer h4{margin-bottom:12px;font-size:13.5px}
+.footer li{margin-bottom:7px;font-size:12.5px}
+.footer-contact{font-size:12.5px;line-height:1.85;margin-top:0}
+.footer-contact b{font-size:13.5px}
+.footer-links{padding:12px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;text-align:center}
+.footer-tech{padding:6px 0;font-size:12px;text-align:center}
+.footer-bottom{padding:12px 0 16px;font-size:11.5px;text-align:center;justify-content:center}
+.footer-bottom a{color:#bcd6ff}
+
+@media(max-width:980px){
+ .grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .nav .container{gap:12px}.brand-slogan{display:none}
+}
+@media(max-width:680px){
+ .grid-2,.grid-3{grid-template-columns:1fr}
+ .hero-art{height:300px}.hero-emblem{width:220px;height:220px}
+ .hero-trust{gap:18px}.topbar span{font-size:11px}
+ .article-body h2{font-size:21px}
+}

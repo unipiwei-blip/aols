@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /assets/
+Disallow:
+
+User-agent: Baiduspider
+Allow: /assets/
+Disallow:
+
+User-agent: Googlebot
+Allow: /assets/
+Disallow:
+
+Host: www.aols.com.cn
+Sitemap: https://www.aols.com.cn/sitemap.xml
