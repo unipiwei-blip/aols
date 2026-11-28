@@ -1,14 +1,45 @@
 User-agent: *
-Allow: /assets/
-Disallow:
+Allow: /
+
 
 User-agent: Baiduspider
-Allow: /assets/
-Disallow:
+Allow: /
+
 
 User-agent: Googlebot
-Allow: /assets/
-Disallow:
+Allow: /
+
+
+User-agent: Bingbot
+Allow: /
+
+
+User-agent: GPTBot
+Allow: /
+
+
+User-agent: OAI-SearchBot
+Allow: /
+
+
+User-agent: ChatGPT-User
+Allow: /
+
+
+User-agent: Bytespider
+Allow: /
+
+
+User-agent: ClaudeBot
+Allow: /
+
+
+User-agent: Google-Extended
+Allow: /
+
+
+User-agent: PerplexityBot
+Allow: /
 
 Host: www.aols.com.cn
 Sitemap: https://www.aols.com.cn/sitemap.xml
